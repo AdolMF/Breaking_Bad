@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="br_background">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad - Formulario</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="shortcut icon" href="IMG/icon.png" type="image/x-icon">
+</head>
+<body>
+    <form action="mailto:raul.rodriguez@proeducaglobal.com">
+        <fieldset>
+            <legend class="letra_g">Breaking Bad - Que comience el juego!</legend>       
+                <fieldset>
+                    <legend class="letra_g">Datos personales</legend>
+                    Nombre: <input type="text" placeholder="Ej: Jesse" required>
+                    <br>Apellidos: <input type="text" placeholder="Ej. Pinkman" required>
+                    <br>DNI: <input type="text" placeholder="Ej. 38134901W">
+                    <br>Correo electrónico: <input type="email" placeholder="Ej. j_pinkman@brbad.com" required>    
+                <br>
+                <br>
+                <fieldset>
+                    <legend class="letra_g">Dirección postal</legend>
+                    Calle: <input type="text" placeholder="Ej: Isleta Blvd SW">
+                    Número: <input type="int" placeholder="Ej: 4275">
+                    Piso: <input type="int" placeholder="Ej: 0">
+                    Código Postal: <input type="text" placeholder="Ej: 87105">
+                    Ciudad: <input type="text" placeholder="Ej: Albuquerque, NM, EEUU">
+                </fieldset>
+                    <br>
+                    <br>Sexo: <input type="radio" name="sexo" value="Hombre">Hombre <input type="radio" name="sexo" value="Mujer">Mujer
+                    <br>Fecha de nacimiento: <input type="date">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend class="letra_g">Seleccion de personajes</legend> 
+                    <select name="personajes">
+                        <option value="1">Jesse Pinkman</option>
+                        <option value="2">Walter White</option>
+                        <option value="3">Saul Goodman</option>
+                        <option value="4">Gustavo Fring</option>
+                        <option value="5">Pollos Hermanos</option>
+                        <option value="6">Otros personajes</option>
+                    </select>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend class="letra_g">Comentarios</legend> 
+                    <textarea placeholder="Déjanos aquí tus comentarios para ayudarnos a mejorar. ¡Muchas gracias!" maxlength="2000"></textarea>
+                    <br>
+                </fieldset>
+                <br>
+                <input type="reset" value="Borrar">
+                <input type="file" id="archivo">
+                <br><br>
+                <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>

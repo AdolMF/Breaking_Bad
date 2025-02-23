@@ -1,0 +1,138 @@
+
+@font-face {
+    font-family: 'BreakingBad';
+    src: url('FONTS/Breaking Bad.ttf');
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 10px;  
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+table {
+    background-color: #2B2C24;
+    border: 1px;
+    border-color: #2B2C24;
+    border-spacing: 0.5rem;
+    text-align: center;
+}
+
+td {
+    height: 2rem;
+    width: 4.4rem;
+    padding: auto;
+}
+
+
+.br_background  {
+    background-image: url('../IMG/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.br_background_flat  {
+    background-color: #0c3e11;
+}
+
+.centrado {
+    place-items: center;
+}
+
+
+.letra_xl{
+    font-size: 40px;
+    font-weight: bold;
+    color: #2B2C24;
+}
+
+.letra_l{
+    font-size: 14px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    background-image: url('../IMG/logo.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.poster_title {
+    font-family: 'BreakingBad';
+    justify-content: center;
+    align-items: center;
+    place-items: middle;
+    text-align: center;
+    color: white;
+}
+
+.poster {
+    width: 700px;
+    height: 300px;
+    border-style: outset;
+    border-width: 10px;
+    border-radius: 22px;
+    border-color: brown;
+}
+
+.table_main_logo {
+    width: 450px;
+    height: 220px;
+    background-image: url('../IMG/cabecera.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tabla_periodica {
+    border-collapse: separate;
+    empty-cells: hide;
+}
+
+.celda_doble {
+    column-span: 2;
+}
+
+.color_celda_1 {
+    background-color: #B7DB21;
+}
+
+.color_celda_2 {
+    background-color: #808C4E;
+}
+
+.color_celda_3 {
+    background-color: #EFF6CA;
+}
+
+.color_celda_4 {
+    background-color: #C5E346
+    ;
+}
+
+.color_celda_5 {
+    background-color: #BCC49E;
+}
+
+.color_celda_6 {
+    background-color: #89A419;
+}
+
+.color_celda_7 {
+    background-color: #637126;
+}
+
+.color_celda_8 {
+    background-color: #AB8ECE;
+}
+
+.color_celda_9 {
+    background-color: #D5E97A;
+}
+
+.color_celda_0 {
+    background-color: #C2C726;
+}
